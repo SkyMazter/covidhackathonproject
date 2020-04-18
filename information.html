@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Information</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="info_header">
+      <h2 class="fade_in one">Stay Informed</h2>
+
+      <div>
+        <button
+          onclick="window.location='https://nothing-covid19.glitch.me/index.html'"
+        >
+          Home
+        </button>
+        <button
+          onclick="window.location='https://nothing-covid19.glitch.me/information.html'"
+        >
+          Status Info
+        </button>
+        <button
+          onclick="window.location='https://nothing-covid19.glitch.me/mentalhealth.html'"
+        >
+          Stress relief
+        </button>
+        <button
+          onclick="window.location='https://nothing-covid19.glitch.me/timeline.html'"
+        >
+          Timeline
+        </button>
+        <image
+          src="https://static.wixstatic.com/media/e2ecba_35e01d2eef4241c790d1995b8bdf88c1~mv2.gif"
+        ></image>
+      </div>
+    </div>
+
+    <div id="info_mid">
+      <div id="left_side">
+        <div id="top_info_holder">
+          <div id="deaths">
+            <h2>Total Deaths: </h2>
+          </div>
+
+          <div id="cases">
+            <h2>Global Cases: </h2>
+          </div>
+
+          <div id="recovered">
+            <h2>Recoveries: </h2>
+          </div>
+        </div>
+
+        <div id="bottom_info_holder">
+          <div class="holder type_one">
+            <h3>Active Cases</h3>
+            <p>
+              Currently there are <span id="active"></span> active cases of
+              Covid-19
+            </p>
+            <br />
+            <p>
+              Of those cases there are <span id="mid"></span> cases in the
+              intermediate stage
+            </p>
+            <br />
+            <p>
+              Unfortunately <span id="critical"></span> cases have reached a
+              critical state
+            </p>
+            <br />
+            <p>
+              If you are experiencing any of the following symptoms and haven't
+              made a full recovery in atleast 4 days or have sever underlying
+              medical conditions then consider getting tested at your nearest
+              hospital
+            </p>
+            <br />
+            <h3>Common Symptoms</h3>
+            <ul>
+              <li>Fever</li>
+              <li>Dry Cough</li>
+              <li>Fatigue</li>
+              <li>Shortness or breath</li>
+            </ul>
+            <br />
+            <h3>Less Common Symptoms</h3>
+            <ul>
+              <li>Nasal Congestion</li>
+              <li>Aches and pains</li>
+              <li>Diarrhea</li>
+            </ul>
+          </div>
+
+          <div class="holder type_one">
+            <h3>Cases shown by country</h3>
+            <div id="countries"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="right_side">
+        <div>
+          <p class="important">
+            <strong>
+              Do's
+            </strong>
+          </p>
+          <ul class="list">
+            <li>
+              Wash your hands regularly for 20 seconds, with soap and water or
+              alcohol-based hand rub
+            </li>
+            <li>
+              Cover your nose and mouth with a disposable tissue or flexed elbow
+              when you cough or sneeze
+            </li>
+            <li>
+              Avoid close contact (1 meter or 3 feet) with people who are unwell
+            </li>
+            <li>
+              Stay home and self-isolate from others in the household if you
+              feel unwell
+            </li>
+          </ul>
+          <p class="important">
+            <strong>
+              Don'ts
+            </strong>
+          </p>
+          <ul>
+            <li>
+              Touch your eyes, nose, or mouth if your hands are not clean
+            </li>
+            <li>
+              Go outside without the proper protection
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="info_bottom">
+      <div class="holder type_two">
+        <p>
+          For all of us who are feeling distressed, Just remeber...
+        </p>
+        <br />
+        <p>
+          "Nothing is permanent in this wicked world not even our troubles"
+          <br />
+          -Charlie Chaplin
+        </p>
+      </div>
+    </div>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+  </body>
+</html>
