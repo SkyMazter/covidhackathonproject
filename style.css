@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+}
+
+body {
+}
+
+#maintitle {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  height: 50px;
+  align-items: center;
+  font-family: "Righteous", cursive;
+}
+#navbar-left {
+  width: 80%;
+}
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+#center h1 {
+  font-family: "Fugaz One", cursive;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#buttons button {
+  background-color: white;
+  color: grey;
+  padding: 20px;
+  margin: 10px;
+}
+
+.list {
+  color: #191970;
+}
+li {
+  margin-bottom:10px;
+}
+#center {
+  color: white;
+  height: 500px;
+  background: url("https://images.squarespace-cdn.com/content/v1/54179d62e4b0af003a219a13/1414355911603-QHIYC92V3T4P9UWH0RS6/ke17ZwdGBToddI8pDm48kN-iCp0H8EbLNb85VXvIfntZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxbJ6nT22MqkKTNnYny1wnkClHS-tzM1oczfpRGL4qDHKXlZBeQsEdLEUBRJKqSpxE/clouds_test_500.gif")
+    no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Righteous", cursive;
+}
+#missionstatement {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+  width: 50%;
+  margin-bottom: 50px;
+  background-image: linear-gradient(to right, white, #d6fbff);
+  box-shadow: 5px 5px #b3efff;
+}
+#rowaftercenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-image: linear-gradient(to right, white, #d6fbff);
+}
+/* Mental health page CSS*/
+#MH_body {
+  background: url("https://i.pinimg.com/originals/95/dc/a4/95dca49148e94615e9cd389e2d69f6e9.gif")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#MH_header {
+  width: 100%;
+  height: 10vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#MH_header h2 {
+  padding: 10px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  margin-left: 20px;
+  font-family: "Fugaz One", cursive;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+}
+#MH_header div {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-right: 20px;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+}
+#MH_header div img {
+  height: 100%;
+}
+#MH_header div button {
+  height: 25px;
+  width: 100px;
+  font-family: "Comfortaa", cursive;
+  background-color: #d6fbff;
+}
+#MH_top {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#videos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  background-color:#d6fbff;
+  width:100%;
+  height:100vh;
+}
+#vid_title{
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+#vid_title h2 {
+  padding: 10px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-left: 30px;
+  font-family: "Fugaz One", cursive;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+  height:80%;
+}
+.vidrow {
+  display: flex;
+  justify-content: space-between;
+
+  width:95%;
+  height:30%;
+}
+.vidbox {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+/*   background-color:#d6fbff; */
+    background-color:lightblue;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+  width:30%;
+  font-family: "Comfortaa", cursive;
+}
+.resourcecolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:center;
+  width: 25%;
+  height: 90%;
+  text-align: Center;
+  background-color: white;
+}
+#MH_Resourcelinks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  background-color:rgb(255, 255, 135);
+}
+.MH_resourcetitle{
+  font-family: "Fugaz One", cursive;
+}
+a,
+.source {
+  font-size: 24px;
+  
+}
+.resource_link{
+  height:50px;
+  width:150px;
+  background-color:#d6fbff;
+  font-family: "Comfortaa", cursive;
+   box-shadow: 5px 5px rgb(217, 217, 215);
+}
+
+.underresourcetitle {
+  font-size: 15px;
+  font-family: "Comfortaa", cursive;
+}
+/* Wellness Quiz CSS */
+#quizbody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d6fbff;
+  font-family: "Fugaz One", cursive;
+}
+#choices {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+  font-family: "Comfortaa", cursive;
+}
+#choiceone,
+#choicetwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#b1f2ba;
+  box-shadow: 5px 5px grey;
+  width: 10em;
+  height: 10em;
+  font-size: 20px;
+  background-color: ;
+}
+#quizbegin {
+  margin-top: 100px;
+  font-size: 50px;
+  padding: 20px;
+  font-family: "Comfortaa", cursive;
+  background-color:rgb(255, 255, 135) ;
+}
+#quizquestion {
+  width: 500px;
+  font-size: 24px;
+  font-family: "Comfortaa", cursive;
+}
+/* info page css */
+#info_header {
+  width: 100%;
+  height: 10vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#info_header h2 {
+  padding: 10px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  margin-left: 20px;
+  font-family: "Fugaz One", cursive;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+}
+#info_header div {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-right: 20px;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+}
+#info_header div img {
+  height: 100%;
+}
+#info_header div button {
+  height: 25px;
+  width: 100px;
+  font-family: "Comfortaa", cursive;
+  background-color: #d6fbff;
+}
+.important {
+  color: red;
+  font-size:21px;
+}
+#info_mid {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+#left_side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  background-color: rgb(225, 247, 246);
+}
+#right_side {
+  width: 25%;
+  background-color: rgb(255, 255, 135);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#right_side div {
+  font-family: "Ubuntu", sans-serif;
+  background-color: white;
+  width: 80%;
+  height:90%;
+  padding: 10px;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+}
+#right_side div li {
+  font-size: 20px;
+}
+#info_bottom {
+  height: 40vh;
+  width: 100%;
+}
+#top_info_holder {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#top_info_holder div {
+  width: 200px;
+  height: 70%;
+  box-shadow: 5px 5px rgb(217, 217, 215);
+  padding: 10px;
+  text-align: center;
+  font-family: "Sanchez", serif;
+}
+#top_info_holder #deaths {
+  background-color: rgb(255, 97, 97);
+}
+#top_info_holder #cases {
+  width: 225px;
+  height: 80%;
+  font-size:20px;
+  background-color: rgb(97, 255, 239);
+}
+#top_info_holder #recovered {
+  background-color: rgb(97, 255, 134);
+}
+#bottom_info_holder {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+.holder {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px rgb(217, 217, 215);
+  padding: 10px;
+}
+.type_one {
+  height: 90%;
+  width: 45%;
+}
+#mid {
+  color: orange;
+}
+#critical {
+  color: red;
+}
+#countries {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  flex-flow: column;
+  justify-content:space-around;
+}
+#info_bottom {
+/*  https://media2.giphy.com/media/fTMOnqSvJNQKA/source.gif  */
+  background: url("https://thumbs.gfycat.com/CharmingFairDungenesscrab-size_restricted.gif");
+  background-color:lightblue;
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type_two {
+  width: 30%;
+  height: auto;
+  font-family: "Gotu", sans-serif;
+  font-size: 20px;
+}
+/* css animation for the info page DO NOT TOUCH */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slides{
+  font-size: 28px;
+  font-family: 'Alex Brush', cursive;
+}
+
+.fade_in {
+  opacity: 0; /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.fade_in.one {
+  -webkit-animation-delay: -0.1s;
+  -moz-animation-delay: -0.1s;
+  animation-delay: -0.1s;
+}
+
+.fade_in.two {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+#subtitle {
+  font-size: 14px;
+}
+#gametitle {
+  font-size: 20px;
+}
+
+.time {
+  font-family: "Times New Roman", serif;
+}
+/*.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+*/
+.slides {
+  margin: 10%;
+}
+b{
+  background-color:#a9c9fc;
+  font-size:120%;
+}
+#update {
+  font-family:'Oswald', sans-serif;
+}
+#line {
+  margin: 7%;
+  border-bottom-style: solid;
+  font-size:300%
+}
+/*covid19 game css */
+#gamebody{
+  background-color:lightblue;
+}
+.game_buttons{
+  background-color:#d6fbff;
+  margin:10px;
+  border:white 2px solid;
+  font-size:24px;
+}
